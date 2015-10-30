@@ -38,8 +38,14 @@
     <ApplicationIcon>Content\Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Source\EnemyTank.cs" />
     <Compile Include="Source\Game1.cs" />
+    <Compile Include="Source\MenuParser.cs" />
+    <Compile Include="Source\PauseMenu.cs" />
+    <Compile Include="Source\PlayerTank.cs" />
     <Compile Include="Source\Program.cs" />
+    <Compile Include="Source\Tank.cs" />
+    <Compile Include="Source\WelcomeMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
