@@ -2,13 +2,31 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NeonWars.Main
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace NeonWars
 {
 	public class Tank
 	{
-		int health;
-		Vector2 position;
-		int speed;
+		private int _health;
+		public int Health
+		{ 
+			get{ return this._health; } 
+			set{ this._health = value; }
+		}
+		private Vector2 _position;
+		public Vector2 Position
+		{ 
+			get{ return this._position; } 
+			set{ this._position = value; }
+		}
+		private int _speed;
+		public int Speed
+		{ 
+			get{ return this._speed; } 
+			set{ this._speed = value; }
+		}
 
 		public Tank()
 		{
@@ -26,36 +44,6 @@ namespace NeonWars.Main
 		}
 
 		protected void Draw(SpriteBatch spritebatch)
-		{
-			throw new NotImplementedException();
-		}
-
-		protected int getHealth()
-		{
-			throw new NotImplementedException();
-		}
-
-		protected void setHealth(int health)
-		{
-			throw new NotImplementedException();
-		}
-
-		protected Vector2 getPosition()
-		{
-			throw new NotImplementedException();
-		}
-
-		protected void getPosition(Vector2 position)
-		{
-			throw new NotImplementedException();
-		}
-
-		protected int getSpeed()
-		{
-			throw new NotImplementedException();
-		}
-
-		protected void setSpeed(int speed)
 		{
 			throw new NotImplementedException();
 		}
