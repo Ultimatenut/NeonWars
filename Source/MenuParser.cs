@@ -2,13 +2,22 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NeonWars.Main
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+using NeonWars.Dependencies;
+
+namespace NeonWars
 {
 	public class MenuParser
 	{
-		String path;
-		TextField[] textelements;
-		Button[] buttonelements;
+        private String _path;
+        public String Path
+		{ 
+			get{ return this._path; } 
+			set{ this._path = value; }
+		}
+		private TextField[] textelements;
 
 		public MenuParser(int menutype, String path)
 		{
