@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NeonWars.Main
+namespace NeonWars
 {
 	public class PauseMenu
 	{

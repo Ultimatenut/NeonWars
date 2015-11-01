@@ -2,11 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NeonWars.Main
+namespace NeonWars
 {
 	public class PlayerTank : Tank
 	{
-		int armor;
+        private int _armor;
+        public int Armor
+		{ 
+			get{ return this._armor; } 
+			set{ this._armor = value; }
+		}
 
 		public PlayerTank(int health, int armor)
 		{

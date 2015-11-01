@@ -9,12 +9,22 @@ namespace NeonWars
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        private GraphicsDeviceManager _graphics;
+        public GraphicsDeviceManager Graphics
+        { 
+			get{ return this._graphics; } 
+			set{ this._graphics = value; }
+		}
+        private SpriteBatch _spritebatch;
+        public SpriteBatch SpriteBatch
+        { 
+			get{ return this._spritebatch; } 
+			set{ this._spritebatch = value; }
+		}
 
         public Game1()
         {
-            graphics = new GraphicsDeviceManager(this);
+            this._graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
 
@@ -38,7 +48,7 @@ namespace NeonWars
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
+            this._spritebatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
         }
