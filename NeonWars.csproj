@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{09BEE93B-F3A6-40D5-9888-77AC29282160}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>exe</OutputType> <!-- opens a console for debugging purposes -->
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NeonWars</RootNamespace>
     <AssemblyName>NeonWars</AssemblyName>

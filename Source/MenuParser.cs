@@ -11,8 +11,8 @@ namespace NeonWars
 {
 	public class MenuParser
 	{
-        private String _path;
-        public String Path
+		private String _path;
+		public String Path
 		{ 
 			get{ return this._path; } 
 			set{ this._path = value; }

@@ -9,23 +9,23 @@ namespace NeonWars.Dependencies
 {
 	public class TextField
 	{
-        private int _x_pos;
-        public int X
+		private int _x_pos;
+		public int X
 		{ 
 			get{ return this._x_pos; } 
 			set{ this._x_pos = value; }
 		}
 		private int _y_pos;
-        public int Y
+		public int Y
 		{ 
 			get{ return this._y_pos; } 
 			set{ this._y_pos = value; }
 		}
 		
 		private int _length;
-        public int Length{ get; set; }
+		public int Length{ get; set; }
 		private int _width;
-        public int Width{ get; set; }
+		public int Width{ get; set; }
 
 		private String _text;
 		public String Text{ get; set; }
@@ -40,7 +40,7 @@ namespace NeonWars.Dependencies
 		private bool _is_button;
 		public bool Is_Button{ get; set; }
 
-        public TextField(int x_pos, int y_pos, int length, int width, String Text)
+		public TextField(int x_pos, int y_pos, int length, int width, String Text)
 		{
 			throw new NotImplementedException();
 		}
@@ -56,10 +56,10 @@ namespace NeonWars.Dependencies
 			{
 				if(mouseY >= this._y_pos && mouseY <= (this._y_pos + this._length) )
 				{
-                    return true;
-                }
+					return true;
+				}
 			}
-            return false;
-        }
+			return false;
+		}
 	}
 }
