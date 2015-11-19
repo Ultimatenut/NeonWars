@@ -45,7 +45,6 @@ namespace NeonWars
 		/// </summary>
 		protected override void Initialize()
 		{
-
 			base.Initialize();
 		}
 

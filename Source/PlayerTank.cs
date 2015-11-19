@@ -5,7 +5,6 @@ using Microsoft.Xna.Framework.Graphics;
 
 using NeonWars.Dependencies;
 
-
 namespace NeonWars
 {
 	public class PlayerTank
